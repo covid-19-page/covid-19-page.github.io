@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://covid-19-page.github.io/zh/categories/</loc>
+    <loc>/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://covid-19-page.github.io/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://covid-19-page.github.io/zh/categories/"
+                href="/zh/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://covid-19-page.github.io/zh/tags/</loc>
+    <loc>/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://covid-19-page.github.io/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://covid-19-page.github.io/zh/tags/"
+                href="/zh/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://covid-19-page.github.io/zh/</loc>
+    <loc>/zh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://covid-19-page.github.io/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://covid-19-page.github.io/zh/"
+                href="/zh/"
                 />
   </url>
   
