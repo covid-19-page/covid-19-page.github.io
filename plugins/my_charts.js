@@ -20,7 +20,7 @@ $.get('../json/map/china.json', function (chinaJson) {
             // }
             let o = {
                 title: {
-                    text: time + '统计值'
+                    text: time + '确诊人数'
                 },
                 series: [{
                     type: 'map',
@@ -73,11 +73,11 @@ $.get('../json/map/china.json', function (chinaJson) {
                     show: true,
                     inRange: {
                         color: [
-                           
+
                             "#fef6fe",
                             "#d88273",
                             "#bf444c"
-                           
+
                         ]
                     },
                     textStyle: {
@@ -86,8 +86,8 @@ $.get('../json/map/china.json', function (chinaJson) {
                 },
                 animation: true,
                 title: {
-                    text: '高铁网络',
-                    subtext: 'data from ',
+                    text: '确诊地图',
+                    subtext: 'data from : http://www.nhc.gov.cn/',
                     sublink: '',
                     left: 'center',
                     textStyle: {
@@ -99,7 +99,7 @@ $.get('../json/map/china.json', function (chinaJson) {
                     formatter: '{b}<br>确诊:{c}'
                 },
                 timeline: {
-                    currentIndex: time_line_date.length-1,
+                    currentIndex: time_line_date.length - 1,
                     tooltip: {
                         show: false
                     },
@@ -164,6 +164,10 @@ $.get('../json/map/china.json', function (chinaJson) {
                         emphasis: {
                             areaColor: '#2a333d'
                         }
+                    },
+                    scaleLimit: { //所属组件的z分层，z值小的图形会被z值大的图形覆盖
+                        min: 0.6, //最小的缩放值
+                        max: 3, //最大的缩放值
                     }
 
                 },

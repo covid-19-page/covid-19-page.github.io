@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hugo.test/categories/</loc>
+    <loc>https://covid-19-page.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hugo.test/zh/categories/"
+                href="https://covid-19-page.github.io/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hugo.test/categories/"
+                href="https://covid-19-page.github.io/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://hugo.test/tags/</loc>
+    <loc>https://covid-19-page.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hugo.test/zh/tags/"
+                href="https://covid-19-page.github.io/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hugo.test/tags/"
+                href="https://covid-19-page.github.io/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://hugo.test/</loc>
+    <loc>https://covid-19-page.github.io/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hugo.test/zh/"
+                href="https://covid-19-page.github.io/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hugo.test/"
+                href="https://covid-19-page.github.io/"
                 />
   </url>
   

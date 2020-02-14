@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>新型冠状病毒肺炎页面 | COVID-19 Page</title>
-    <link>https://hugo.test/</link>
+    <link>https://covid-19-page.github.io/</link>
     <description>Recent content on 新型冠状病毒肺炎页面 | COVID-19 Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
     
-	<atom:link href="https://hugo.test/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://covid-19-page.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
