@@ -45,7 +45,7 @@ $.get('../json/map/china.json', function (chinaJson) {
 
         myChart.setOption({
             baseOption: {
-                backgroundColor: '#6f6f6f',
+                backgroundColor: '#fff',
                 visualMap: {
                     // min: 1,
                     // max: 2000,
@@ -83,7 +83,7 @@ $.get('../json/map/china.json', function (chinaJson) {
                     tooltip: {
                         show: false
                     },
-                    bottom: '5%',
+                    bottom: '2%',
                     playInterval: 1000,
                     realtime: true,
                     autoPlay: false,
@@ -95,24 +95,24 @@ $.get('../json/map/china.json', function (chinaJson) {
                     checkpointStyle: {
                         // 当前点
                         color: '#fff',
-                        borderColor: '#ddd'
+                        borderColor: '#aaa'
                     },
                     lineStyle: {
                         // 线
-                        "color": "#ddd",
+                        "color": "#aaa",
                     },
                     textStyle: {
-                        color: '#fff'
+                        color: '#aaa'
                     },
                     itemStyle: {
-                        borderColor: "#fff",
+                        borderColor: "#aaa",
                     },
                     controlStyle: {
-                        color: '#fff',
-                        borderColor: "#fff"
+                        color: '#aaa',
+                        borderColor: "#aaa"
                     },
                     label: {
-                        color: "#fff"
+                        color: "#aaa"
                     },
                     data: time_line_date
                 },
@@ -135,7 +135,7 @@ $.get('../json/map/china.json', function (chinaJson) {
                         }
                     },
                     selectedMode: 'single',
-                    roam: true,
+                    roam: false,
                     itemStyle: {
                         normal: {
                             areaColor: '#ccc',
@@ -145,10 +145,10 @@ $.get('../json/map/china.json', function (chinaJson) {
                             areaColor: '#2a333d'
                         }
                     },
-                    // scaleLimit: { //所属组件的z分层，z值小的图形会被z值大的图形覆盖
-                    //     min: 0.6, //最小的缩放值
-                    //     max: 3, //最大的缩放值
-                    // }
+                    scaleLimit: { //所属组件的z分层，z值小的图形会被z值大的图形覆盖
+                        min: 0.6, //最小的缩放值
+                        max: 3, //最大的缩放值
+                    }
 
                 },
                 //    series: series
