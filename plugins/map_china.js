@@ -20,10 +20,6 @@ $.get('../json/map/china.json', function (chinaJson) {
         for (let i = 0; i < obj.length; i++) {
             var time = obj[i]["time"];
             time_line_date.unshift(time);
-            // let d = []
-            // for (let j = 0; j < obj[i]['confirm']['province_level'].length; j++) {
-            //     const element = obj[i]['confirm']['province_level'][j];                
-            // }
             let o = {
                 title: {
                     text: time + '确诊人数'
@@ -46,28 +42,6 @@ $.get('../json/map/china.json', function (chinaJson) {
 
 
         }
-        console.log(time_line_option);
-        // for (var i = 0; i < obj.length; i++) {
-        //     var points = [];
-        //     for (var j = 0; j < obj[i].Mnst.length; j++) {
-        //         // 这里有一个坑我必须说明一下 我的数据result8.json里经纬度反了，所以这里取值的时候先取的value[1],再取的value[0]
-        //         points.push([obj[i].Mnst[j].value[1], obj[i].Mnst[j].value[0]]);
-        //     }
-        //     busLines.push({
-        //         coords: points,
-        //         name: obj[i].name,
-        //         tooltip: {
-        //             trigger: 'item',
-        //             formatter: '{b}'
-        //         },
-        //         lineStyle: {
-        //             normal: {
-        //                 color: echarts.color.modifyHSL('#5A94DF', Math.round(hStep * i))
-        //             }
-        //         },
-        //     });
-        // };
-
 
         myChart.setOption({
             baseOption: {
@@ -171,42 +145,17 @@ $.get('../json/map/china.json', function (chinaJson) {
                             areaColor: '#2a333d'
                         }
                     },
-                    scaleLimit: { //所属组件的z分层，z值小的图形会被z值大的图形覆盖
-                        min: 0.6, //最小的缩放值
-                        max: 3, //最大的缩放值
-                    }
+                    // scaleLimit: { //所属组件的z分层，z值小的图形会被z值大的图形覆盖
+                    //     min: 0.6, //最小的缩放值
+                    //     max: 3, //最大的缩放值
+                    // }
 
                 },
                 //    series: series
             },
             options: time_line_option
-            // [{ //option 1 对应timeline.data中第一项2002年
-            //         title: {
-            //             text: '2002年统计值'
-            //         },
-            //         series: [
-            //             //     {
-            //             //     type: 'heatmap',
-            //             //     coordinateSystem: 'geo',
-            //             //     data: [
-            //             //         [116.46, 39.92, 6000]
-            //             //     ],
-            //             // }, 
-            //             {
-            //                 type: 'map',
-            //                 geoIndex: 0,
-            //                 // coordinateSystem: 'geo',
-            //                 data: busLines,
-            //                 label: {
-            //                     normal: {
-            //                         show: false
-            //                     }
-            //                 },
-            //                 roam: true,
-            //             }
-            //         ]
-            //     }
-            // ]
+            // [{ //option 1 对应timeline.data中第一项2002年}]
+           
         });
 
 
