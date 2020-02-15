@@ -278,7 +278,7 @@ $.get('../json/map/world.json', function (chinaJson) {
                 },
                 animation: true,
                 title: {
-                    text: '确诊地图',
+                    text: 'confirm map',
                     subtext: 'data from : http://www.nhc.gov.cn/',
                     sublink: '',
                     left: 'center',

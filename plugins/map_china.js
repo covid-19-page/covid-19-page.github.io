@@ -71,7 +71,7 @@ $.get('../json/map/china.json', function (chinaJson) {
                     sublink: '',
                     left: 'center',
                     textStyle: {
-                        color: '#fff'
+                        color: '#aaa'
                     }
                 },
                 tooltip: {
