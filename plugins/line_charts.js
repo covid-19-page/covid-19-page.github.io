@@ -125,7 +125,7 @@ var yesterday_confirmed = 0, yesterday_unconfirmed = 0, yesterday_died = 0, yest
 		};
 
 		$.ajaxSettings.async = false;
-		$.getJSON("../json/line_data.json?" + Date.parse(new Date()), function (data) {
+		$.getJSON("../json/data/line_data.json?" + Date.parse(new Date()), function (data) {
 			dataSource = data;
 
 			// dataSource.forEach(function (item) {
